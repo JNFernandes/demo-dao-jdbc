@@ -11,6 +11,8 @@ public class Program {
 		
 		SellerDao sellerDao = DaoFactory.createSellerDao();
 		
+		System.out.println("==== TEST 1: Seller findbyId ====");
+		
 		Seller seller = sellerDao.findbyId(3);
 		
 		System.out.println(seller);
